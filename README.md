@@ -3,7 +3,7 @@
 
 ## Introduction
 
-There has been evidence of academic dishonesty on reading and math grades for Thomas High School ninth graders, where they appear to have been altered. Thus, these grades were then replaced with NaNs while keeping the rest of the data intact.
+There has been evidence of academic dishonesty on reading and math grades for Thomas High School ninth graders, where they appear to have been altered. Thus, these grades were then replaced with NaNs (Not a Number) while keeping the rest of the data intact.
 
 
 
@@ -38,11 +38,11 @@ Loc Method on Math Scores
 ### Student DataFrame
 
 
-The reading and math scores for the 9th graders in Thomas High school were replaced with NaNs, as seen on the following images.
+The reading and math scores for the ninth graders in Thomas High school were replaced with NaNs, as seen on the following images:
 
 
 
-- Student DataFrame before the 9th grades in Thomas High school were replaced with NaNs:
+- Student DataFrame Original
 
 
 
@@ -51,7 +51,7 @@ The reading and math scores for the 9th graders in Thomas High school were repla
 
 
 
-- Student DataFrame after the 9th grades in Thomas High school were replaced with NaNs:
+- Student DataFrame New
 
 
 
@@ -64,8 +64,6 @@ The reading and math scores for the 9th graders in Thomas High school were repla
 
 ### District Summary DataFrame
 
-
-- How is the district summary affected?
 
 - Average Math Score had a slight decrease from 79.0 to 78.9 representing a drop of 1%.
 
@@ -96,8 +94,6 @@ New District Summary DataFrame
 
 ### Per School Summary DataFrame
 
-
-- How is the school summary affected?
 
 The new analysis of the Per School Summary DataFrame presented some changes on Thomas High School results. These changes are descrides on the bullet points bellow and then supported with images of the original and new school summary. 
 
@@ -133,13 +129,13 @@ The images below represent the original and new top 5 performing schools based o
 
 
 
-- Original Top 5 Performing Schools
+- Top 5 Performing Schools Original
 
 ![original_top_5_schools](./Resources/original_top_5_schools.png)
 
 
 
-- New Top 5 Performing Schools 
+- Top 5 Performing Schools New
 
 ![top_5_schools](./Resources/top_5_schools.png)
 
@@ -151,12 +147,12 @@ The images below represent the original and new top 5 performing schools based o
 As shown on the following images there were no changes on the bottom 5 schools based on the overall passing rate, and their sequence on the rank.
 
 
-- Original Bottom 5 Performing Schools
+- Bottom 5 Performing Schools Original 
 
 ![original_bottom_5_schools](./Resources/original_bottom_5_schools.png)
 
 
-- New Bottom 5 Performing Schools
+- Bottom 5 Performing Schools New
 
 ![bottom_5_schools](./Resources/bottom_5_schools.png)
 
@@ -166,11 +162,7 @@ As shown on the following images there were no changes on the bottom 5 schools b
 ### Math and reading Scores by Grade
 
 
-How does replacing the ninth-grade scores affect the following:
-Math and reading scores by grade?
-
-
-Looking at the math and reading scores for Thomas High School, there were no changes. Which means that the ninth-grade scores replacement for Thomas High Schooldind't have an affect on the other grades.
+Looking at the math and reading scores for Thomas High School, there were no changes. Which means the replacement dind't have an affect on the other grades.
 
 - The average math score for each grade level from each school 
 
@@ -209,7 +201,7 @@ After replacement
 ### Scores by School Spending
 
 
-As it can be seen on the images bellow, there were no changes on scores by school spending per student after the replacement of the ninth-grade scores on Thomas High School.
+As it can be seen on the images bellow, there were no changes on scores by school spending per student after the replacement.
 
 
 - Original Scores by School Spending per Student
@@ -232,7 +224,7 @@ As it can be seen on the images bellow, there were no changes on scores by schoo
 
 
 
-The replacement of the ninth-grade scores on Thomas High School had no affect on the scores by school type, as shown below:
+The replacement had no affect on the scores by school type, as shown below:
 
 
 - Original Scores by School Size
@@ -253,7 +245,7 @@ The replacement of the ninth-grade scores on Thomas High School had no affect on
 ### Scores by School Type 
 
 
-The following images support that there were no effect on the scores by school type after the replacement of the ninth-grade scores on Thomas High School.
+The following images support that there were no effect on the scores by school type after the replacement.
 
 
 - Original Scores by School Type
